@@ -3,6 +3,7 @@
  */
 
 describe('Capture component images', function() {
+
     it('Get images on Large viewport', function () {
 
         // Add the url that the WebDriver is going to open
