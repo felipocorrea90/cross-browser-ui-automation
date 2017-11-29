@@ -30,8 +30,7 @@ You can edit any of these settings by modifying the capabilities object on the W
 3. Make sure images were saved on the defined folder (/test/images/sample by default)
 4. Compare images by running the `analyzeImages` spec and make sure the images highlighting the differences were generated after the spec execution `npm test ./test/specs/analyzeImages.js`
 
-> **Notes**
-
+> **Notes:**
 > - You can verify any issues by looking at the video and log generated on the BrowserStack dashboard.
 > - You can add a step to assert the mismatch percentage of any given set of images. Look at the Resemble JS documentation for more information.
 > - Sample test will capture images of the Bloomberg site header on the mentioned browsers and across three different viewports. Future changes on the Bloomberg site could make this sample test fail due to invalid css locators.
